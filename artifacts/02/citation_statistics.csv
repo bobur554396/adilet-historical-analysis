@@ -1,0 +1,6 @@
+code,total_citations,within_code,cross_code_outgoing,cross_code_incoming,articles_citing,avg_citations_per_article
+УК,372,307,65,8,63,0.7410358565737052
+КоАП,2672,2537,135,4,285,2.50656660412758
+ГК,149,93,56,3,86,0.35058823529411764
+ТК,107,85,22,0,52,0.4841628959276018
+НК,3136,2901,235,0,546,3.69811320754717

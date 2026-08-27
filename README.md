@@ -33,7 +33,9 @@ Run notebooks in order. `01` → `07` operate on the current-version corpus; `08
 
 ## Data
 
-Texts were collected from *adilet.zan.kz*. Article JSON carries hierarchical metadata, paragraph list with link targets, and an amendment-history `notes` field. Outputs are written to `../../output/<NN>/` per notebook.
+Texts were collected from *adilet.zan.kz*. Article JSON carries hierarchical metadata, a paragraph list with link targets, and an amendment-history `notes` field. Cross-references are read from the hyperlinks embedded in the portal markup, not from regular expressions over the wording.
+
+Each notebook writes its outputs to `output/<NN>/`. A compact subset of those files, the summary tables behind the numbers reported in the paper, is included here under `artifacts/<NN>/` (21 files, ~150 KB). Large binaries are left out of the repository: article embeddings (`.npy`), pickled penalty frames (`.pkl`), the 23 MB full penalty history, and the interactive UMAP page.
 
 ## Stack
 

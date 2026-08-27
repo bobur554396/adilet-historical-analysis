@@ -1,0 +1,5 @@
+code_key,code_short,total_versions,initial_articles,articles_added,articles_deleted,unique_articles,present_all_versions,turnover_rate,stability_rate,avg_lifespan_years
+civil,ГК,179,390,38,3,425,387,10.512820512820513,100.0,28.559185086765716
+criminal,УК,109,467,35,0,502,467,7.494646680942184,100.0,10.622555636454864
+administrative,КоАП,205,917,150,1,1066,917,16.466739367502726,100.0,10.770820571892337
+labor,ТК,69,204,17,0,221,204,8.333333333333332,100.0,9.405855408029586
